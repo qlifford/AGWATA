@@ -1,4 +1,4 @@
-# import os
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -22,6 +22,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'moneypath.apps.MoneypathConfig',
+    'snapy.apps.SnapyConfig',
 
     
     'django.contrib.admin',
